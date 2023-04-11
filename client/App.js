@@ -7,7 +7,7 @@ import Hello from './src/components/Hello'
 
 // Initialize Apollo Client
 const client = new ApolloClient({
-  uri: 'http://192.168.0.199:4000/',
+  uri: 'http://localhost:4000/',
   cache: new InMemoryCache()
 });
 
